@@ -1,0 +1,24 @@
+*{box-sizing:border-box;font-family:system-ui,Segoe UI,Roboto,Arial,sans-serif}
+.container{max-width:1100px;margin:24px auto;padding:0 16px}
+h1{margin:0 0 8px}
+.muted{color:#6b7280}
+code{background:#f3f4f6;padding:2px 6px;border-radius:8px}
+.input{width:100%;padding:12px;border:1px solid #e5e7eb;border-radius:12px;outline:none;resize:vertical;background:#fff}
+.row{display:flex;align-items:center;justify-content:space-between;margin:12px 0}
+.btn{background:#2563eb;color:#fff;border:none;border-radius:12px;padding:10px 16px;cursor:pointer}
+.btn:disabled{opacity:.6;cursor:not-allowed}
+.error{margin-top:12px;background:#fee2e2;border:1px solid #fecaca;color:#991b1b;padding:10px 12px;border-radius:12px}
+.grid{margin-top:16px;display:grid;gap:12px;grid-template-columns:repeat(2, minmax(0, 1fr))}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;padding:14px}
+.pre{white-space:pre-wrap;word-break:break-word;background:#0b1220;color:#e5e7eb;padding:12px;border-radius:12px;overflow:auto}
+.hier{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+.hcard{border:1px solid #e5e7eb;border-radius:14px;padding:12px;background:#fafafa}
+.hhead{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px}
+.badge{background:#111827;color:#fff;padding:4px 10px;border-radius:999px;font-size:12px}
+.badge.ok{background:#16a34a}
+.treewrap{max-height:240px;overflow:auto}
+.tree{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:13px}
+.tree-node{margin-left:10px}
+.tree-label{font-weight:600}
+.tree-children{margin-left:10px;border-left:1px dashed #d1d5db;padding-left:10px}
+

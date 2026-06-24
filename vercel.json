@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/bfhl", "destination": "/api/bfhl" }
+  ]
+}

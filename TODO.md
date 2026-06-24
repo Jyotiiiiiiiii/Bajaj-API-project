@@ -1,0 +1,11 @@
+- [x] Create backend (Node.js/Express) project structure
+- [x] Implement POST /bfhl with validation, duplicate handling, tree/cycle building, depth, and summary
+- [x] Enable CORS and JSON body parsing
+- [x] Create frontend React project (simple UI)
+- [x] Frontend calls POST {API_URL}/bfhl and renders response
+- [x] Add local test using the sample testcase
+- [x] Run both locally and verify response
+- [ ] Deploy backend to Render
+- [ ] Deploy frontend to Render (static) or separate frontend host
+- [ ] Update frontend with hosted backend URL
+
